@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>TO DO LIST</title>
+        <style>
+            body{
+                height: 80vh;
+                background-image: url("TDLpic.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-attachment: fixed;
+            }
+            div{
+                text-align: center;
+            }
+            h1{
+                font-size: 70px;
+            }
+            p{
+                font-size: 35px;
+            }
+            button{
+                font-size: 30px;
+            }
+            .textbox{
+                background: rgba(0,0,0,0.4);
+                width: fit-content;
+                padding: 0px 5px 10px 5px;
+                border-radius: 10px;
+                position: fixed;
+                top: 150px;
+                left: 400px;
+            }
+                @media (max-width: 600px) {
+                h1{
+                    font-size: 5vw;
+                }
+                p{
+                    font-size: 3vw;
+                }
+                .textbox{
+                    width: fit-content;
+                    padding: 0px 5px 5px 5px;
+                    position: fixed;
+                    left: 25vw;
+                    top: 60vw;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="textbox">
+        <h1>Welcome To...To Do List</h1>
+        <p>🧠💻 Staying organized just got easier!</p>
+        <button onclick="document.location='Final.html'">Start!</button>
+        </div>
+    </body>
+</html>
